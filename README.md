@@ -14,8 +14,8 @@ The main goal of this project is to implement a secure user authentication syste
 
 
 ### User  
-- **Attributes:** `username`, `email`, `password (hashed)`, `reset_token`  
-- **Operations:** Register, Login, Password Reset  
+- **Attributes:** username,email,password(hashed),reset_token. 
+- **Operations:** Register, Login, Password Reset.  
 
 
 
@@ -46,20 +46,20 @@ The main goal of this project is to implement a secure user authentication syste
 - **Frontend:** HTML, CSS  
 - **Backend:** PHP  
 - **Database:** MySQL  
-- **Server:** XAMPP / WAMP / LAMP (Apache + MySQL + PHP)  
+- **Server:** XAMPP(Apache + MySQL + PHP)  
 
----
+
 
 ## Architecture
-- `register.html` → Registration form  
-- `register.php` → Handles registration and stores user in MySQL  
-- `login.html` → Login form  
-- `login.php` → Authenticates user credentials  
-- `forgot_password.html` → Form to request password reset  
-- `forgot_password.php` → Generates reset token and shows link  
-- `reset_password.php` → Updates password in the database  
-- `welcome.html` → Welcome page after login  
-- `styles.css` → Styling for all forms/pages  
+- register.html → Registration form  
+- register.php → Handles registration and stores user in MySQL  
+- login.html → Login form  
+- login.php → Authenticates user credentials  
+- forgot_password.html→ Form to request password reset  
+- forgot_password.php → Generates reset token and shows link  
+- reset_password.php→ Updates password in the database  
+- welcome.html→ Welcome page after login  
+- styles.css → Styling for all forms/pages  
 
 
 
