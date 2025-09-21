@@ -1,11 +1,11 @@
-# 🔐 Registration and Login System with Password Reset
+# Registration and Login System with Password Reset
 
 A **web-based authentication system** built using **HTML, CSS, PHP, and MySQL**.  
 It allows users to **register, log in, reset forgotten passwords, and access a welcome page**.  
 
 
 
-## 🎯 Objective
+## Objective
 The main goal of this project is to implement a secure user authentication system with:  
 - User Registration  
 - User Login  
@@ -13,17 +13,13 @@ The main goal of this project is to implement a secure user authentication syste
 - Welcome page with logout option  
 
 
-
-## 👥 Users & Entities
-There is one main entity:  
-
-### 👤 User  
+### User  
 - **Attributes:** `username`, `email`, `password (hashed)`, `reset_token`  
 - **Operations:** Register, Login, Password Reset  
 
 
 
-## 📦 Modules
+##  Modules
 ### 1. Registration  
 - Register new users with username, email, and password.  
 - Passwords are hashed before storing in the database.  
@@ -46,7 +42,7 @@ There is one main entity:
 
 
 
-## 🛠️ Technology Stack
+## Technology 
 - **Frontend:** HTML, CSS  
 - **Backend:** PHP  
 - **Database:** MySQL  
@@ -54,7 +50,7 @@ There is one main entity:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 - `register.html` → Registration form  
 - `register.php` → Handles registration and stores user in MySQL  
 - `login.html` → Login form  
